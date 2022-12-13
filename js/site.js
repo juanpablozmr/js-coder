@@ -1,7 +1,33 @@
 
-const valorDolar = 171.75;
+
+function bienvenida() {
+    let nombreIngresado = prompt("Bienvenido, ingresa tu nombre para loguearte ");
+    alert("Bienvenido " + nombreIngresado + " ¿Queres realizar la compra de moneda extranjera?");
+}
+
+bienvenida();
+prompt("Bienvenido, ingresa tu moneda ");
+
+function cotizacion(Dolar, Euro) {
+
+    switch (moneda) {
+        case "euro":
+            return Euro;
+            break;
+
+        case "dolar":
+            return Dolar;
+            break;
+
+            default:
+                return 0;
+                break;
+                
+  
+    }
     
-let montoIngresado = prompt("Ingrese cuanto Dólares quiere adquirir. Cotización: ARS " + valorDolar);
+}
+cotizacion();
 
 let montoIngresado = prompt("¿ Cuanto Dólares quieres adquirir. Cotización: ARS " + valorDolar + valorEuro);
 if (montoIngresado < 100) {
