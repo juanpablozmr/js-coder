@@ -1,8 +1,9 @@
 
 const valorDolar = 171.75;
-
+    
 let montoIngresado = prompt("Ingrese cuanto Dólares quiere adquirir. Cotización: ARS " + valorDolar);
 
+let montoIngresado = prompt("¿ Cuanto Dólares quieres adquirir. Cotización: ARS " + valorDolar + valorEuro);
 if (montoIngresado < 100) {
     alert("El monto minimo de compra es USD 100");
 }
